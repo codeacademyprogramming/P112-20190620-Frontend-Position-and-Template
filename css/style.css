@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    font-family: 'Merriweather Sans', sans-serif;
+    padding: 12px 0;
+}
+
+header .header-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .header-items a {
+    color: black;
+}
+header .header-items a:hover {
+    color: #f4623a;
+}
+
+header .brand {
+    font-size: 24px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li a {
+    padding: 0 15px;
+    font-size: 14px;
+}
+
+.section-main {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.separator {
+    width: 50px;
+    border: 1.5px solid #f4623a;
+    margin: 20px auto;
+}
+
+
+/* Section Intro */
+#section-intro {
+    background-image:
+        linear-gradient(to right, rgba(92,77,66,.8),  rgba(92,77,66,.8)),
+         url("../images/bg-masthead.jpg");
+    background-size: cover; 
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+#section-intro h1 {
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #fff;
+    font-size: 52px;
+}
+
+#section-intro .intro-body {
+    width: 80%;
+    margin: 0 auto;
+}
+#section-intro .intro-body p {
+    font-size: 18px;
+    font-family: 'Merriweather', sans-serif;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 20px;
+}
+#section-intro .intro-body a {
+    display: inline-block;
+    background-color: #f4623a;
+    color: #fff;
+    padding: 20px 40px;
+    border-radius: 50px;
+    font-family: 'Merriweather-sans', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+#section-intro .intro-body a:hover {
+    background-color: #ca4f2c;
+}
+
+
+#section-service .service-items{
+    display: flex;
+}
+
+#section-service .service-item i {
+    font-size: 50px;
+    color:#f4623a;
+    margin-bottom: 20px;
+}
+#section-about {
+    background-color: #f4623a;
+}
+#section-about .separator{
+    border-color: #fff;;
+}
+
